@@ -1,0 +1,27 @@
+@charset "windows-1256";
+
+body {
+    background-color: #e3e3e3;
+    font-family: Arial;
+}
+.header{
+     width: 800px;
+    margin: auto;
+    text-align: center;
+    color: Green;
+}
+.wrap{
+    
+    width: 800px;
+    margin: auto;
+    text-align: left;
+}
+select {
+    width: 150pt;
+}
+
+fieldset {
+    width: 800px;
+    margin: auto;
+}
+

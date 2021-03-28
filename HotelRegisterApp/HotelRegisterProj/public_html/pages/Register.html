@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1256"/>
+        <title>Hotel Registeration</title>
+        <link rel="stylesheet" media="screen" href="../resources/css/Styles.css" type="text/css"/>
+    </head>
+    <body>
+    
+    <div class="header">
+    <h1>Hotel Registeration Form</h1>
+    <h3>Please Fill on all the blanks</h3>
+    </div>
+    
+    <div class="wrap">
+    
+      <form action="../myservlet" method="GET">
+   <fieldset>
+        <legend> Personal Details </legend>
+      
+                <label>Name : </label>
+                <input type="text" name="Name" required="required" autofocus="autofocus" placeholder="userName"
+                pattern="[a-zA-Z0-9 ]{3,10}" title="Please enter the valid name"/>
+                <label>Email : </label>
+                <input type="text" name="Email"/>
+                 <label>Country : </label>
+                 
+                <select size="5" name="Country" multiple="multiple">
+                    <option value="Egypt">
+                        Egypt
+                    </option>
+                    <option value="Saudi">
+                        Saudi
+                    </option>
+                    <option value="Qatar">
+                        Qatar
+                    </option>
+                </select>
+                
+                <br>
+                <label>Address : </label><br>
+                <textarea name="Address" cols="70" rows="7"></textarea>
+           
+   </fieldset>
+   
+   <fieldset>
+            <legend> Booking Details</legend>
+                <label for="date">Booking Date : </label> 
+            <input type="text" name="date"/>
+                <label for="numberOfGuests">No of Guests : </label> 
+            <input type="text" name="numberOfGuests"/>
+            <p>
+            Do you require Meals?
+              <label for="YesMeals">Yes </label> 
+                <input type="radio" name="meals" value="YesMeals"/>
+                <label for="NoMeals">No </label> 
+                <input type="radio" name="meals" value="NoMeals" checked="checked"/>
+                
+                  </p>
+                    
+                    <label for="balcony">Balcony ? </label> 
+                <input type="checkbox" name="balcony" value="yes" checked="checked"/>
+                <br>
+                
+                <div class="header">
+                        <input type="submit" name="submit" value="submit"/>
+               </div>         
+                        
+                        
+                </fieldset>
+ </form>
+   
+   </div>
+    </body>
+</html>
