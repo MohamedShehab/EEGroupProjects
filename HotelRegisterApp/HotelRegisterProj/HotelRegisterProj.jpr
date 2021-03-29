@@ -63,6 +63,8 @@
       <list n="technologyScope">
          <string v="HTML"/>
          <string v="JAVASCRIPT"/>
+         <string v="JSP"/>
+         <string v="Java"/>
          <string v="XML"/>
       </list>
    </hash>
@@ -73,6 +75,28 @@
    <hash n="oracle.jdeveloper.model.J2eeSettings">
       <value n="j2eeWebAppName" v="HotelRegisterApp-HotelRegisterProj-webapp"/>
       <value n="j2eeWebContextRoot" v="HotelRegisterApp-HotelRegisterProj-context-root"/>
+   </hash>
+   <hash n="oracle.jdevimpl.config.JProjectLibraries">
+      <list n="exportedReferences">
+         <hash>
+            <value n="id" v="Servlet Runtime"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="JSP Runtime"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+      </list>
+      <list n="libraryReferences">
+         <hash>
+            <value n="id" v="Servlet Runtime"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="JSP Runtime"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+      </list>
    </hash>
    <hash n="oracle.jdevimpl.config.JProjectPaths">
       <url n="outputDirectory" path="classes/"/>
